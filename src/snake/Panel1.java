@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package snake;
 
 import java.awt.Color;
@@ -10,11 +5,6 @@ import java.awt.Graphics;
 import java.awt.event.MouseListener;
 import javax.swing.JPanel;
 import java.awt.event.MouseEvent;
-
-/**
- *
- * @author admin
- */
 public class Panel1 extends JPanel implements MouseListener {
 
     private Color drawColor = new Color(0, 255, 0);
