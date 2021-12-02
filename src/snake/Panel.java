@@ -12,7 +12,6 @@ public class Panel extends JPanel implements ActionListener {
 
     private Color drawC = new Color(0, 255, 0);
     Timer timer;
-
     public Panel() {
         super.setSize(300, 300);
         this.addKeyListener(new MyKeyAdapter());
